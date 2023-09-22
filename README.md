@@ -1,5 +1,5 @@
 # K-Nearest Neighbors
-![](KNN.png)
+![](/KNN.png)
 
 L'algoritmo K-Nearest Neighbors (KNN) è un algoritmo di classificazione utilizzato nei modelli predittivi. Il suo obiettivo è suddividere dati simili in classi di appartenenza. Questo algoritmo si basa sulla prossimità dei dati per effettuare le classificazioni e costruire le varie classi basandosi sui vicini (neighbors) più prossimi. Il valore di K, che rappresenta il numero di vicini considerati, viene impostato all'inizio durante la creazione del modello predittivo.
 
