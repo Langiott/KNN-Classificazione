@@ -1,4 +1,5 @@
 # K-Nearest Neighbors
+![](KNN.png)
 
 L'algoritmo K-Nearest Neighbors (KNN) è un algoritmo di classificazione utilizzato nei modelli predittivi. Il suo obiettivo è suddividere dati simili in classi di appartenenza. Questo algoritmo si basa sulla prossimità dei dati per effettuare le classificazioni e costruire le varie classi basandosi sui vicini (neighbors) più prossimi. Il valore di K, che rappresenta il numero di vicini considerati, viene impostato all'inizio durante la creazione del modello predittivo.
 
@@ -25,10 +26,12 @@ X = df[df.columns[1:3]]  # Caratteristiche (features)
 y = df["target"]         # Variabile target
 
 from sklearn.neighbors import KNeighborsClassifier
-
 modello = KNeighborsClassifier(1)  # Creazione del modello con K=1
 modello.fit(X, y)  # Addestramento del modello
 ```
 Predizione del modello che assegnerà l'etichetta corrispondente all'input 
 ```
 modello.predict([[340.7349, 0.866]])--->0 oppure 1
+
+```
+![](23.png)
